@@ -1,0 +1,80 @@
+﻿.zo-btn {
+    border: 0;
+    padding: .5em .8em;
+    transition: .5s;
+    display: inline-block;
+}
+
+    .zo-btn:hover, .zo-btn:focus {
+        box-shadow: 0 6px 20px rgba(0,0,0,.1),inset 0 -4px rgba(0,0,0,.1);
+    }
+
+    .zo-btn:active {
+        box-shadow: inset 0 0 10px rgba(0,0,0,.1);
+    }
+
+.zo-btn--block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.zo-btn--radius {
+    border-radius: 6px;
+}
+
+.zo-btn--round {
+    border-radius: 9em;
+}
+
+.zo-btn--default {
+    background: #f2f2f2;
+}
+
+    .zo-btn--default:hover, .zo-btn--default:focus {
+        background-color: #f7f7f7;
+    }
+
+    .zo-btn--default:active {
+        background-color: #eee;
+    }
+
+.zo-btn--primary {
+    background-color: #48c;
+    color: #fff;
+}
+
+    .zo-btn--primary:hover, .zo-btn--primary:focus {
+        background-color: #59d;
+    }
+
+    .zo-btn--primary:active {
+        background-color: #37b;
+    }
+
+.zo-btn--error {
+    color: #fff;
+    background-color: #d22;
+}
+
+    .zo-btn--error:hover, .zo-btn--error:focus {
+        background-color: #e33;
+    }
+
+    .zo-btn--error:active {
+        background-color: #c11;
+    }
+
+.zo-btn--success {
+    color: #fff;
+    background-color: #6c4;
+}
+
+    .zo-btn--success:hover, .zo-btn--success:focus {
+        background-color: #7d5;
+    }
+
+    .zo-btn--success:active {
+        background-color: #5b3;
+    }
