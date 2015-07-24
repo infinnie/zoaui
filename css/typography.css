@@ -1,0 +1,87 @@
+﻿/*#region link*/
+.zo-link {
+    transition: .5s;
+}
+
+    .zo-link:hover, .zo-link:focus {
+        color: #48c;
+        text-decoration: underline;
+    }
+/*#endregion*/
+
+/*#region pre and code*/
+.zo-pre, .zo-code {
+    background: #f3f3f3;
+}
+
+.zo-pre {
+    padding: 1em 1.25em;
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+.zo-code {
+    padding: 0 .25em;
+}
+/*#endregion*/
+
+/*#region quote*/
+.zo-quote {
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 4px solid #7ad;
+}
+
+.zo-quoteSource {
+    text-align: right;
+    margin: -.5em 0 1em;
+}
+
+    .zo-quoteSource:before {
+        content: "\2014";
+    }
+/*#endregion*/
+
+/*#region list*/
+.zo-list {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+.zo-list--nested {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+.zo-list--ul {
+    list-style: disc;
+}
+
+.zo-list--ol {
+    list-style: decimal;
+}
+
+.zo-list__item {
+    padding-left: .5em;
+}
+/*#endregion*/
+
+/*#region table*/
+.zo-table {
+    width: 100%;
+    border-spacing: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+.zo-table__heading, .zo-table__cell {
+    padding: .5em 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.zo-table__heading {
+    text-align: left;
+    font-weight: bold;
+    background-color: #f3f3f3;
+}
+/*#endregion*/
