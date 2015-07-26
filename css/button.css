@@ -13,6 +13,14 @@
         box-shadow: inset 0 0 10px rgba(0,0,0,.1);
     }
 
+.zo-btn--l {
+    font-size: 125%;
+}
+
+.zo-btn--s {
+    font-size: 75%;
+}
+
 .zo-btn--block {
     display: block;
     width: 100%;
@@ -78,3 +86,36 @@
     .zo-btn--success:active {
         background-color: #5b3;
     }
+
+.zo-btnGroup {
+    display: inline-block;
+}
+
+.zo-btnGroup--vertical {
+    width: 5em;
+}
+
+.zo-btnGroup--block {
+    display: block;
+}
+
+.zo-btnGroup__btn {
+    float: left;
+    margin-right: 1px;
+}
+
+.zo-btnGroup__btn--radiusLeft {
+    border-radius: 6px 0 0 6px;
+}
+
+.zo-btnGroup__btn--radiusRight {
+    border-radius: 0 6px 6px 0;
+}
+
+.zo-btnGroup__btn--radiusTop {
+    border-radius: 6px 6px 0 0;
+}
+
+.zo-btnGroup__btn--radiusBottom {
+    border-radius: 0 0 6px 6px;
+}
