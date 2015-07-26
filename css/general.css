@@ -67,7 +67,7 @@
     width: device-width;
 }
 
-body, input, button, select {
+body, input, button, select, textarea {
     font: 100%/1.5 "_Segoe","Segoe UI",Seravek,"Avenir next",Arial,sans-serif;
     color: #333;
     -webkit-font-feature-settings: "dlig" 1,"kern" 1,"tnum" 1;
@@ -83,9 +83,18 @@ body {
     padding: 0;
 }
 
+input, button, select, textarea {
+    border-radius: 0;
+}
+
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
-    color: #369;
+    color: #26a;
 }
 
 img {
@@ -93,39 +102,43 @@ img {
     height: auto;
 }
 
+table {
+    font-size: 100%;
+}
+
 pre, code {
-    font-family: Consolas,"Source Code Pro",Menlo,"Courier New",monospace;
-    background: #f3f3f3;
+    font-family: Consolas,"Source Code Pro",Menlo,"Droid Sans Mono","Courier New",monospace;
     -webkit-font-feature-settings: normal;
     font-feature-settings: normal;
     letter-spacing: 0;
 }
 
-code {
-    padding: 0 .25em;
-}
-
-pre {
-    padding: 1em 1.25em;
-    line-height: 1.5;
-    overflow-x: auto;
-}
-
 h1 {
     font-weight: 700;
+    font-size: 250%;
     line-height: 1.1;
+    margin: .6em 0 .4em;
 }
 
 h2 {
     font-weight: 100;
+    font-size: 180%;
     line-height: 1.2;
+    margin: .8em 0 .5em;
 }
 
 h3 {
     font-weight: 300;
-<<<<<<< HEAD
     font-size: 140%;
-=======
->>>>>>> parent of c04c0b9... Added CSS and HTML files
     line-height: 1.2;
+    margin: .7em 0;
+}
+
+h4, h5, h6 {
+    font-size: 100%;
+    margin: 1em 0;
+}
+
+p {
+    margin: 1em 0;
 }
