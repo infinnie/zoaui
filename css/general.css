@@ -70,8 +70,8 @@
 body, input, button, select, textarea {
     font: 100%/1.5 "_Segoe","Segoe UI",Seravek,"Avenir next",Arial,sans-serif;
     color: #333;
-    -webkit-font-feature-settings: "dlig" 1,"kern" 1;
-    font-feature-settings: "dlig" 1,"kern" 1;
+    -webkit-font-feature-settings: "dlig" 1,"kern" 1,"tnum" 1;
+    font-feature-settings: "dlig" 1,"kern" 1,"tnum" 1;
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -129,7 +129,7 @@ h2 {
 
 h3 {
     font-weight: 300;
-    font-size: 150%;
+    font-size: 140%;
     line-height: 1.2;
     margin: .6em 0;
 }

@@ -74,6 +74,11 @@
     margin: 1em 0;
 }
 
+.zo-table--outline {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
 .zo-table__heading, .zo-table__cell {
     padding: .5em 1em;
     border-bottom: 1px solid #ccc;
@@ -83,5 +88,13 @@
     text-align: left;
     font-weight: bold;
     background-color: #f3f3f3;
+}
+
+.zo-table--bordered {
+    border-left: 1px solid #ccc;
+}
+
+.zo-table--bordered__heading, .zo-table--bordered__cell {
+    border-right: 1px solid #ccc;
 }
 /*#endregion*/
