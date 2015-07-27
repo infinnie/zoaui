@@ -3,6 +3,7 @@
     padding: .5em .8em;
     transition: .5s;
     display: inline-block;
+    line-height: 1.5;
 }
 
     .zo-btn:hover, .zo-btn:focus {
