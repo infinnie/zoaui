@@ -2,8 +2,11 @@
     background: #fff;
     line-height: 1.5;
     position: relative;
-    border-bottom: 1px solid #eee;
+    border-color: #eee;
+    border-width: 0 0 1px;
+    border-style: solid;
     margin-bottom: 1.5em;
+    min-height: 0;
 }
 
     .zo-navbar:before, .zo-navbar:after {
@@ -15,7 +18,7 @@
     }
 
 .zo-navbar--bordered {
-    border: 1px solid #eee;
+    border-width: 1px;
 }
 
 .zo-navbar__toggle {
@@ -24,7 +27,7 @@
     font-size: 200%;
     line-height: 1.75;
     padding: 0 .5em;
-    color: #333;
+    margin: 0 .25em;
 }
 
     .zo-navbar__toggle:before {
@@ -46,12 +49,13 @@
 }
 
 .zo-navbar__brand {
-    margin: 0;
+    margin: 0 .4em;
     padding: 0;
     font-size: 1.25em;
     line-height: 1.2;
     font-weight: 300;
     overflow: hidden;
+    float: left;
 }
 
 .zo-navbar__brand__link {
@@ -78,13 +82,27 @@
     margin: 0;
 }
 
+.zo-navbar--dark {
+    background: #48c;
+    color: #fff;
+    border-color: #26a;
+}
+
+.zo-navbar__link--bgDark {
+    color: #fff;
+}
+
+    .zo-navbar__link--bgDark:hover, .zo-navbar__link--bgDark:focus {
+        background-color: #37b;
+    }
+
+.zo-navbar--radius {
+    border-radius: 6px;
+}
+
 @media screen and (min-width:48em) {
     .zo-navbar__toggle {
         display: none;
-    }
-
-    .zo-navbar__brand {
-        float: left;
     }
 
     .zo-navbar__nav {
@@ -92,6 +110,7 @@
         visibility: visible;
         width: auto;
         border: 0;
+        margin-right: .5em;
     }
 
     .zo-navbar__list {
