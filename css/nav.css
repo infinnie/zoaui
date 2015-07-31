@@ -9,7 +9,7 @@
     min-height: 0;
 }
 
-    .zo-navbar:before, .zo-navbar:after, .zo-navbar__nav:after {
+    .zo-navbar:before, .zo-navbar:after {
         content: "";
         display: table;
         height: 0;
