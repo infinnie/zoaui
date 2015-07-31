@@ -9,7 +9,7 @@
     min-height: 0;
 }
 
-    .zo-navbar:before, .zo-navbar:after {
+    .zo-navbar:before, .zo-navbar:after, .zo-navbar__nav:after {
         content: "";
         display: table;
         height: 0;
@@ -19,6 +19,10 @@
 
 .zo-navbar--bordered {
     border-width: 1px;
+}
+
+.zo-navbar-borderless {
+    border-width: 0;
 }
 
 .zo-navbar__toggle {
@@ -70,7 +74,18 @@
     background: #fff;
     border-bottom: 1px solid #eee;
     visibility: hidden;
+    z-index: 1;
+    transition: .25s ease-in;
+    transform: translate3d(-100%,0,0);
+    opacity: 0;
 }
+
+    .zo-navbar__nav.zojs-navbar-on {
+        visibility: visible;
+        opacity: 1;
+        transform: translateZ(0);
+        transition-timing-function: ease-out;
+    }
 
 .zo-navbar__list {
     margin: 0;
@@ -86,6 +101,10 @@
     background: #48c;
     color: #fff;
     border-color: #26a;
+}
+
+.zo-navbar__nav--bgDark {
+    background: #26a;
 }
 
 .zo-navbar__link--bgDark {
@@ -108,9 +127,13 @@
     .zo-navbar__nav {
         position: relative;
         visibility: visible;
+        opacity: 1;
+        transform: none;
+        transition: 0s;
         width: auto;
         border: 0;
         margin-right: .5em;
+        background-color: transparent;
     }
 
     .zo-navbar__list {

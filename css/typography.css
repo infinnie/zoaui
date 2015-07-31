@@ -9,6 +9,16 @@
     }
 /*#endregion*/
 
+/*#region headings*/
+.zo-h1--top {
+    margin-top: .4em;
+}
+
+.zo-h2--top {
+    margin-top: .55em;
+}
+/*#endregion*/
+
 /*#region pre and code*/
 .zo-pre, .zo-code {
     background: #f3f3f3;
