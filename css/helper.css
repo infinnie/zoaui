@@ -1,11 +1,35 @@
-﻿.zo-textLeft {
+﻿.zo--textLeft {
     text-align: left;
 }
 
-.zo-textCenter {
+.zo--textCenter {
     text-align: center;
 }
 
-.zo-textRight {
+.zo--textRight {
     text-align: right;
+}
+
+.zo--radius {
+    border-radius: 6px;
+}
+
+.zo--round {
+    border-radius: 9em;
+}
+
+.zo--radiusLeft {
+    border-radius: 6px 0 0 6px;
+}
+
+.zo--radiusRight {
+    border-radius: 0 6px 6px 0;
+}
+
+.zo--radiusTop {
+    border-radius: 6px 6px 0 0;
+}
+
+.zo--radiusBottom {
+    border-radius: 0 0 6px 6px;
 }

@@ -87,6 +87,22 @@ input, button, select, textarea {
     border-radius: 0;
 }
 
+textarea {
+    overflow: auto;
+}
+
+:-ms-input-placeholder {
+    color: #aaa;
+}
+
+::-moz-placeholder {
+    color: #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #aaa;
+}
+
 ::-moz-focus-inner {
     border: 0;
     padding: 0;

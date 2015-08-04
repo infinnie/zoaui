@@ -4,7 +4,7 @@
         // Now we do something
         $(function () {
             $(document).on("click", "[data-zo-toggle=navbar]", function () {
-                $($(this).attr("data-zo-for")).toggleClass("zojs-navbar-on");
+                $($(this).attr("data-zo-for")).toggleClass("zojs-navbar--on");
                 return false;
             });
         });

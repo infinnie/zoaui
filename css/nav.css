@@ -43,7 +43,7 @@
     transition: background .5s;
 }
 
-    .zo-navbar__link:hover, .zo-navbar__link:focus {
+    .zo-navbar__link:hover, .zo-navbar__link:focus, .zo-navbar__link.zo--active {
         background: #f3f3f3;
     }
 
@@ -80,7 +80,7 @@
     opacity: 0;
 }
 
-    .zo-navbar__nav.zojs-navbar-on {
+    .zo-navbar__nav.zojs-navbar--on {
         visibility: visible;
         opacity: 1;
         transform: translateZ(0);
@@ -111,7 +111,7 @@
     color: #fff;
 }
 
-    .zo-navbar__link--bgDark:hover, .zo-navbar__link--bgDark:focus {
+    .zo-navbar__link--bgDark:hover, .zo-navbar__link--bgDark:focus, .zo-navbar__link--bgDark.zo--active {
         background-color: #37b;
     }
 

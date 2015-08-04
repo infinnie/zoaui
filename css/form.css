@@ -1,0 +1,85 @@
+﻿.zo-input, .zo-addon, .zo-select {
+    border: 1px solid #ccc;
+    line-height: 1.5;
+}
+
+.zo-input--singleLine, .zo-addon {
+    height: 1.5em;
+}
+
+.zo-input, .zo-select {
+    background: #fff;
+    border-radius: 0;
+    transition: .5s;
+    padding: .44em .7em; /* .44em + 1px === .5em */
+}
+
+    .zo-input:hover, .zo-input:focus, .zo-select:hover, .zo-select:focus {
+        border-color: #48c;
+    }
+
+    .zo-input:focus, .zo-select:focus {
+        box-shadow: 0 6px 20px rgba(0,0,0,.1);
+    }
+
+.zo-input--borderlessLeft {
+    border-left: 0;
+}
+
+.zo-input--borderlessRight {
+    border-right: 0;
+}
+
+/* Do not use .zo-addon for inline displacement elements like images or buttons */
+.zo-addon {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: .44em 0;
+    display: block;
+}
+
+.zo-check {
+    margin-right: .25em;
+    vertical-align: -1px;
+}
+
+.zo-checkLabel {
+    margin-right: .25em;
+    display: inline-block;
+}
+
+.zo-label {
+    display: block;
+    margin: 1em 0;
+}
+
+.zo-label--hasContentBox {
+    padding: 0 .65em 0 .7em;
+    margin: 1em 2px 1em 0;
+}
+
+.zo-label--hasSelect {
+    padding-left: .75em;
+    margin-right: -.75em;
+}
+
+.zo-label__input, .zo-label__select {
+    display: block;
+    width: 100%;
+    margin-top: .25em;
+    margin: .25em -.75em 0;
+}
+
+.zo-g__label {
+    margin: 0 1px 0 0;
+}
+
+.zo-g__input {
+    margin: 0 -.7em;
+}
+
+/* I don't know where to place it. */
+.zo-g__btn {
+    margin: 0;
+    padding: .5em 0;
+}
