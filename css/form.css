@@ -30,7 +30,7 @@
     border-right: 0;
 }
 
-/* Do not use .zo-addon for inline displacement elements like images or buttons */
+/* Do not use .zo-addon for inline replacement elements like images or buttons */
 .zo-addon {
     background-color: #f3f3f3;
     text-align: center;
@@ -70,8 +70,12 @@
     margin: .25em -.75em 0;
 }
 
-.zo-g__label {
+.zo-g__inputBox {
     margin: 0 1px 0 0;
+}
+
+.zo-g__inputBox--middle {
+    margin: 0;
 }
 
 .zo-g__input {
