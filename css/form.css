@@ -82,6 +82,13 @@
     margin: 0 -.7em;
 }
 
+.zo-g__select {
+    height: 2.5em;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
 /* I don't know where to place it. */
 .zo-g__btn {
     margin: 0;

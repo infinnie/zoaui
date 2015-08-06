@@ -103,6 +103,12 @@ textarea {
     color: #aaa;
 }
 
+::-ms-expand {
+    background: transparent;
+    border: 0;
+    color: inherit;
+}
+
 ::-moz-focus-inner {
     border: 0;
     padding: 0;
