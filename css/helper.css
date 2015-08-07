@@ -11,7 +11,7 @@
 }
 
 .zo--radius {
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .zo--round {
@@ -19,17 +19,17 @@
 }
 
 .zo--radiusLeft {
-    border-radius: 6px 0 0 6px;
+    border-radius: 4px 0 0 4px;
 }
 
 .zo--radiusRight {
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 4px 4px 0;
 }
 
 .zo--radiusTop {
-    border-radius: 6px 6px 0 0;
+    border-radius: 4px 4px 0 0;
 }
 
 .zo--radiusBottom {
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 4px 4px;
 }

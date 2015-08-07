@@ -44,6 +44,25 @@
     transform: translateZ(0);
 }
 
+.zo-dlg__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ccc;
+    font-size: 150%;
+    line-height: 1;
+    margin: .75em;
+    padding: 0 .25em;
+}
+
+    .zo-dlg__close:before {
+        content: "\d7";
+    }
+
+    .zo-dlg__close:hover, .zo-dlg__close:focus {
+        color: #d22;
+    }
+
 .zo-dlg__title {
     margin: .25em 0 .5em;
     font-size: 1.5em;
@@ -57,5 +76,4 @@
 
 .zo-dlg__btn {
     margin: 0 0 0 .5em;
-    min-width: 3.5em;
 }
