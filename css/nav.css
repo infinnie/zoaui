@@ -75,8 +75,9 @@
     border-bottom: 1px solid #eee;
     visibility: hidden;
     z-index: 1;
-    transition: .25s ease-in;
-    transform: translate3d(-100%,0,0);
+    transition: .25s;
+    transform: rotateX(-90deg);
+    transform-origin: top center;
     opacity: 0;
 }
 
@@ -84,7 +85,7 @@
         visibility: visible;
         opacity: 1;
         transform: translateZ(0);
-        transition-timing-function: ease-out;
+        transition: .4s cubic-bezier(.2,0,.7,1.6);
     }
 
 .zo-navbar__list {
