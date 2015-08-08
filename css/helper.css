@@ -33,3 +33,50 @@
 .zo--radiusBottom {
     border-radius: 0 0 4px 4px;
 }
+
+.zo-triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+}
+
+.zo-triangle--down {
+    vertical-align: -2px;
+}
+
+.zo-triangle--up {
+    vertical-align: 3px;
+}
+
+.zo-triangle--whiteDown {
+    border-top-color: #fff;
+}
+
+.zo-triangle--darkDown {
+    border-top-color: #333;
+}
+
+.zo-triangle--whiteLeft {
+    border-right-color: #fff;
+}
+
+.zo-triangle--darkLeft {
+    border-right-color: #333;
+}
+
+.zo-triangle--whiteUp {
+    border-bottom-color: #fff;
+}
+
+.zo-triangle--darkUp {
+    border-bottom-color: #333;
+}
+
+.zo-triangle--whiteRight {
+    border-left-color: #fff;
+}
+
+.zo-triangle--darkRight {
+    border-left-color: #333;
+}
