@@ -82,8 +82,21 @@
         background-color: #4a2;
     }
 
+.zo-btn__splitter {
+    display: inline-block;
+    height: 1em;
+    border-left: 1px solid rgba(255,255,255,.4);
+    margin: 0 .5em;
+    vertical-align: -.1em;
+}
+
+.zo-btn__splitter--dark {
+    border-color: rgba(0,0,0,.1);
+}
+
 .zo-btnGroup {
     display: inline-block;
+    vertical-align: -1em;
 }
 
 .zo-btnGroup--vertical {

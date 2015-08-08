@@ -76,7 +76,9 @@
     visibility: hidden;
     z-index: 1;
     transition: .25s;
+    -webkit-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
+    -webkit-transform-origin: top center;
     transform-origin: top center;
     opacity: 0;
 }
@@ -84,8 +86,10 @@
     .zo-navbar__nav.zojs-navbar--on {
         visibility: visible;
         opacity: 1;
+        -webkit-transform: translateZ(0);
         transform: translateZ(0);
-        transition: .4s cubic-bezier(.2,0,.7,1.6);
+        -webkit-transition: opacity .4s,-webkit-transform .4s cubic-bezier(.2,0,.7,1.8);
+        transition: opacity .4s,transform .4s cubic-bezier(.2,0,.7,1.8);
     }
 
 .zo-navbar__list {
@@ -106,6 +110,7 @@
 
 .zo-navbar__nav--bgDark {
     background: #26a;
+    border-color: #26a;
 }
 
 .zo-navbar__link--bgDark {
