@@ -33,3 +33,10 @@
 .zo--radiusBottom {
     border-radius: 0 0 4px 4px;
 }
+
+.zo-sr {
+    position: absolute;
+    font-size: 1px;
+    top: -9999px;
+    left: -9999px;
+}

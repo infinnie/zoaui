@@ -1,0 +1,28 @@
+﻿.zo-pagination {
+    margin: 1em 0;
+    padding: 0;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.zo-pagination__item {
+    display: inline-block;
+    min-width: 2.5em;
+}
+
+.zo-pagination__link, .zo-pagination__span {
+    display: block;
+    padding: .5em .8em;
+    color: #333;
+    transition: .5s;
+    text-align: center;
+}
+
+    .zo-pagination__link.zo--active, .zo-pagination__span.zo--active {
+        background-color: #f5f5f5;
+        color: #333;
+    }
+
+    .zo-pagination__link:hover, .zo-pagination__link:focus {
+        background: #eee;
+    }
