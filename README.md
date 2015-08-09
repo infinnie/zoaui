@@ -7,4 +7,4 @@ ZoaUI, another UI library
 * We follow the <a href="https://css-tricks.com/bem-101/">BEM conventions</a> in all of our classnames.
 
 ##To be added
-*i18n support&mdash;for Western and CJK languages.
+* i18n support&mdash;for Western and CJK languages.
