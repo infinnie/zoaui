@@ -71,15 +71,15 @@
 
 .zo-btn--success {
     color: #fff;
-    background-color: #5b3;
+    background-color: #4b5;
 }
 
     .zo-btn--success:hover, .zo-btn--success:focus {
-        background-color: #7d5;
+        background-color: #6d7;
     }
 
     .zo-btn--success:active {
-        background-color: #4a2;
+        background-color: #3a4;
     }
 
 .zo-btn__splitter {
