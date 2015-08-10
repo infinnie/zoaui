@@ -18,11 +18,15 @@
     text-align: center;
 }
 
+.zo-pagination__span {
+    color: #aaa;
+}
+
     .zo-pagination__link.zo--active, .zo-pagination__span.zo--active {
         background-color: #f5f5f5;
         color: #333;
     }
 
-    .zo-pagination__link:hover, .zo-pagination__link:focus {
-        background: #eee;
-    }
+.zo-pagination__link:hover, .zo-pagination__link:focus {
+    background: #eee;
+}
