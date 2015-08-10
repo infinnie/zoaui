@@ -1,13 +1,19 @@
-﻿.zo-pagination {
+﻿.zo-paginationContainer {
     margin: 1em 0;
+}
+
+.zo-pagination {
+    display: inline-block;
+    margin: 0;
     padding: 0;
     line-height: 1.5;
     list-style: none;
 }
 
 .zo-pagination__item {
-    display: inline-block;
+    float: left;
     min-width: 2.5em;
+    margin: 0 .25em;
 }
 
 .zo-pagination__link, .zo-pagination__span {
