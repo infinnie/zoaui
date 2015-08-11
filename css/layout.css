@@ -4,7 +4,8 @@
 }
 
 .zo-g {
-    width: 100%;
+    /*width: 100%; Hey we ain't ever gonna consider IE6. */
+    min-height: 0;
 }
 
     .zo-g:before, .zo-g:after {
@@ -14,6 +15,11 @@
         visibility: hidden;
         clear: both;
     }
+
+.zo-g--fill {
+    margin-right: -1em;
+    margin-left: -1em;
+}
 
 .zo-g__col {
     float: left;
@@ -66,7 +72,7 @@
 }
 
 .zo-g__content {
-    padding: 0 1em;
+    margin: 0 1em;
 }
 
 .zo-show {

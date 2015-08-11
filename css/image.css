@@ -1,0 +1,28 @@
+﻿.zo-img {
+    max-width: 100%;
+}
+
+.zo-img--block {
+    display: block;
+}
+
+.zo-figure {
+    display: inline-block;
+    max-width: 100%;
+    padding: .75em;
+    border: 1px solid #ddd;
+}
+
+.zo-figure--block {
+    display: block;
+    margin: 1em 0;
+}
+
+.zo-figure--block__img {
+    width: 100%;
+}
+
+.zo-figure__caption {
+    margin: .5em 0 0;
+    display: block;
+}
