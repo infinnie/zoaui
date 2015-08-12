@@ -22,12 +22,19 @@
         box-shadow: 0 6px 20px rgba(0,0,0,.1);
     }
 
+.zo-input--borderless {
+    border: 0;
+    padding: .5em .76em;
+}
+
 .zo-input--borderlessLeft {
     border-left: 0;
+    padding-left: .7em;
 }
 
 .zo-input--borderlessRight {
     border-right: 0;
+    padding-right: .7em;
 }
 
 /* Do not use .zo-addon for inline replacement elements like images or buttons */
@@ -93,4 +100,8 @@
 .zo-g__btn {
     margin: 0;
     padding: .5em 0;
+}
+
+.zo-navbar__form {
+    margin: .5em .75em;
 }

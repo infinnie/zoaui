@@ -82,6 +82,19 @@
         background-color: #394;
     }
 
+.zo-btn--info {
+    background-color: #6ad;
+    color: #fff;
+}
+
+    .zo-btn--info:hover, .zo-btn--info:focus {
+        background-color: #7be;
+    }
+
+    .zo-btn--info:active {
+        background-color: #59c;
+    }
+
 .zo-btn__splitter {
     display: inline-block;
     height: 1em;
