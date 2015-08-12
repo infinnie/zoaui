@@ -75,7 +75,7 @@
     border-bottom: 1px solid #eee;
     visibility: hidden;
     z-index: 1;
-    transition: .25s;
+    transition: .3s;
     -webkit-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
     -webkit-transform-origin: top center;
