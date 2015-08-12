@@ -120,3 +120,9 @@
 .zo-navbar__form--compressed {
     margin: .75em;
 }
+
+@media screen and (min-width:48em) {
+    .zo-navbar__form {
+        width: 16em;
+    }
+}
