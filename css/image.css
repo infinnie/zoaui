@@ -6,6 +6,10 @@
     display: block;
 }
 
+.zo-img--fill {
+    width: 100%;
+}
+
 .zo-figure {
     display: inline-block;
     max-width: 100%;
@@ -16,10 +20,6 @@
 .zo-figure--block {
     display: block;
     margin: 1em 0;
-}
-
-.zo-figure--block__img {
-    width: 100%;
 }
 
 .zo-figure__caption {

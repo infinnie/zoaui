@@ -23,6 +23,23 @@
     font-size: 75%;
 }
 
+.zo-btn--compressed {
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+.zo-btn--compressedLeft {
+    padding-left: .75em;
+}
+
+.zo-btn--compressedRight {
+    padding-right: .75em;
+}
+
+.zo-btn--compressedAll {
+    padding: .25em .75em;
+}
+
 .zo-btn--block {
     display: block;
     width: 100%;

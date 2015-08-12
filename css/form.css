@@ -37,6 +37,16 @@
     padding-right: .7em;
 }
 
+.zo-input--compressed {
+    padding-top: .19em;
+    padding-bottom: .19em;
+}
+
+.zo-input--borderless.zo-input--compressed {
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
 /* Do not use .zo-addon for inline replacement elements like images or buttons */
 .zo-addon {
     background-color: #f3f3f3;
@@ -99,9 +109,14 @@
 /* I don't know where to place it. */
 .zo-g__btn {
     margin: 0;
-    padding: .5em 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .zo-navbar__form {
     margin: .5em .75em;
+}
+
+.zo-navbar__form--compressed {
+    margin: .75em;
 }
