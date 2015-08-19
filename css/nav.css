@@ -134,6 +134,7 @@
         position: relative;
         visibility: visible;
         opacity: 1;
+        -webkit-transform: none;
         transform: none;
         transition: 0s;
         width: auto;
