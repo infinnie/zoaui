@@ -1,5 +1,10 @@
 # zoaui
 ZoaUI, another UI library
+
+##New in v0.1.4
+* Fixed support for iOS Safari
+* Ghost buttons are now natively supported
+
 ##Disclaimers
 * Remember to include all our files, especially, general.css before your own, so that your works would not get overridden.
 * IE 8 or below would not support the responsive features, but no polyfixes would be provided here.

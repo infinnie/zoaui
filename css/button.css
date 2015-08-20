@@ -1,10 +1,14 @@
-﻿.zo-btn {
-    border: 0;
-    padding: .5em 1em;
-    margin: .15em 0;
-    transition: background-color .5s,box-shadow .5s;
+﻿.zo-btn, .zo-ghostBtn {
+    -webkit-appearance: none;
     display: inline-block;
     line-height: 1.5;
+    margin: .15em 0;
+}
+
+.zo-btn {
+    border: 0;
+    padding: .5em 1em;
+    transition: background-color .5s,box-shadow .5s;
 }
 
     .zo-btn:hover, .zo-btn:focus {
@@ -143,4 +147,39 @@
 
 .zo-btnGroup--vertical__btn, .zo-btnGroup--block__btn {
     margin: 0;
+}
+
+.zo-ghostBtn {
+    color: #333;
+    border: 2px solid;
+    background: transparent;
+    padding: .5em 1.25em;
+    transition: .5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+    .zo-ghostBtn:hover, .zo-ghostBtn:focus {
+        background-color: rgba(0,0,0,.1);
+    }
+
+.zo-ghostBtn--primary {
+    color: #48c;
+}
+
+.zo-ghostBtn--success {
+    color: #4a5;
+}
+
+.zo-ghostBtn--error {
+    color: #d44;
+}
+
+.zo-ghostBtn--info {
+    color: #6ad;
+}
+
+.zo-ghostBtn--inverted {
+    color: #fff;
 }

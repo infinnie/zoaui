@@ -76,8 +76,8 @@
     visibility: hidden;
     z-index: 1;
     transition: .3s;
-    -webkit-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
+    -webkit-transform: rotateX(90deg);
+    transform: rotateX(90deg);
     -webkit-transform-origin: top center;
     transform-origin: top center;
     opacity: 0;
