@@ -1,6 +1,10 @@
 # zoaui
 ZoaUI, another UI library
 
+##New in v0.1.5
+* Fixed dialog positioning
+* <code>@font-face</code> declarations are now in a separate file, fonts.css.
+
 ##New in v0.1.4
 * Fixed support for iOS Safari
 * Ghost buttons are now natively supported

@@ -1,0 +1,64 @@
+﻿/*#region fonts */
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI");
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Italic"),local("Segoe UI");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Light"),local("Segoe WP Light"),local("Segoe UI Semilight"),local("Segoe UI");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Light Italic"),local("Segoe UI Italic"),local("Segoe UI Light");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Semilight"),local("Segoe WP Semilight"),local("Segoe UI");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Semilight Italic"),local("Segoe UI Italic"),local("Segoe UI Semilight"),local("Segoe UI");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Semibold"),local("Segoe WP Semibold"),local("Segoe UI");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Semibold Italic"),local("Segoe UI Bold Italic"),local("Segoe UI Semibold"),local("Segoe UI");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Bold"),local("Segoe UI");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "_Segoe";
+    src: local("Segoe UI Bold Italic"),local("Segoe UI");
+    font-weight: 700;
+    font-style: italic;
+}
+/*#endregion*/
