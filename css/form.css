@@ -12,11 +12,16 @@
     border-radius: 0;
     transition: .5s;
     padding: .44em .7em; /* .44em + 1px === .5em */
-}
-
-.zo-input {
     -webkit-appearance: none;
 }
+
+.zo-select {
+    background: #fff url("assets/expand.svg") right center no-repeat;
+}
+
+    .zo-select::-ms-expand {
+        display: none;
+    }
 
     .zo-input:hover, .zo-input:focus, .zo-select:hover, .zo-select:focus {
         border-color: #48c;
