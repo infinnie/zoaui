@@ -1,0 +1,29 @@
+﻿.zo-badge {
+    font-size: 75%;
+    font-weight: 700;
+    padding: 0 .75em;
+    background: #eee;
+    color: #333;
+    display: inline-block;
+    vertical-align: 5%;
+}
+
+.zo-badge--primary {
+    color: #fff;
+    background: #48c;
+}
+
+.zo-badge--success {
+    color: #fff;
+    background: #4a5;
+}
+
+.zo-badge--error {
+    color: #fff;
+    background: #c22;
+}
+
+.zo-badge--info {
+    color: #fff;
+    background: #6ad;
+}

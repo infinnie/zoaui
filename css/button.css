@@ -65,7 +65,7 @@
     }
 
 .zo-btn--primary {
-    background-color: #48c;
+    background: #48c;
     color: #fff;
 }
 
@@ -79,7 +79,7 @@
 
 .zo-btn--error {
     color: #fff;
-    background-color: #c22;
+    background: #c22;
 }
 
     .zo-btn--error:hover, .zo-btn--error:focus {
@@ -92,7 +92,7 @@
 
 .zo-btn--success {
     color: #fff;
-    background-color: #4a5;
+    background: #4a5;
 }
 
     .zo-btn--success:hover, .zo-btn--success:focus {
@@ -104,7 +104,7 @@
     }
 
 .zo-btn--info {
-    background-color: #6ad;
+    background: #6ad;
     color: #fff;
 }
 

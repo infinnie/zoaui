@@ -12,6 +12,7 @@
     border-radius: 0;
     transition: .5s;
     padding: .44em .7em; /* .44em + 1px === .5em */
+    -moz-appearance: none;
     -webkit-appearance: none;
 }
 
