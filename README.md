@@ -1,6 +1,10 @@
 # zoaui
 ZoaUI, another UI library
 
+##New in v0.1.6
+* <code>select</code> elements now have an SVG background image instead of appearances.
+* Added badge support.
+
 ##New in v0.1.5
 * Fixed dialog positioning
 * <code>@font-face</code> declarations are now in a separate file, fonts.css.
