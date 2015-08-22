@@ -9,6 +9,16 @@
     line-height: 1.5;
 }
 
+.zo-h1__badge {
+    font-size: 60%;
+    vertical-align: 10%;
+}
+
+.zo-h2__badge {
+    font-size: 66%;
+    font-weight: 600;
+}
+
 .zo-badge--primary {
     color: #fff;
     background: #48c;
