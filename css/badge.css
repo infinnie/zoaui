@@ -6,6 +6,7 @@
     color: #333;
     display: inline-block;
     vertical-align: 5%;
+    line-height: 1.5;
 }
 
 .zo-badge--primary {
