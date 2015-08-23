@@ -1,0 +1,16 @@
+﻿@font-face {
+    font-family: "_MSYH";
+    src: local("Microsoft YaHei");
+}
+
+@font-face {
+    font-family: "_MSYH";
+    font-weight: 700;
+    src: local("Microsoft YaHei Bold"),local("Microsoft YaHei");
+}
+
+@font-face {
+    font-family: "_MSYH";
+    font-weight: 300;
+    src: local("Microsoft YaHei Light"),local("Microsoft YaHei");
+}

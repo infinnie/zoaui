@@ -1,0 +1,18 @@
+﻿@import url("fonts.css");
+
+body:lang(zh), input:lang(zh), button:lang(zh), select:lang(zh), textarea:lang(zh),
+body:lang(zh-cn), input:lang(zh-cn), button:lang(zh-cn), select:lang(zh-cn), textarea:lang(zh-cn), [lang=zh], [lang=zh-cn] {
+    font-family: "_Segoe","Segoe UI",Seravek,"Avenir next","_MSYH",Arial,sans-serif;
+}
+
+body:lang(zh), body:lang(zh-cn), [lang=zh], [lang=zh-cn] {
+    line-height: 1.75;
+}
+
+pre:lang(zh), pre:lang(zh-cn), code:lang(zh), code:lang(zh-cn) {
+    font-family: Consolas,"Source Code Pro",Menlo,"Droid Sans Mono","Courier New",monospace;
+}
+
+pre:lang(zh), pre:lang(zh-cn) {
+    line-height: 1.5;
+}

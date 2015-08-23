@@ -12,4 +12,6 @@
 @import url("../image.css");
 @import url("../badge.css");
 
+@import url("../langs/zh-cn/lang.css");
+
 @import url("../helper.css");
