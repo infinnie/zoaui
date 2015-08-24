@@ -1,7 +1,8 @@
 ﻿@import url("../fonts.css");
 @import url("../general.css");
 
-@import url("../langs/zh-cn/lang.css");
+@import url("../langs/base.css");
+@import url("../langs/zh-cn/imports.css");
 
 @import url("../layout.css");
 @import url("../typography.css");
