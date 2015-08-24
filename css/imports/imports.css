@@ -1,5 +1,8 @@
 ﻿@import url("../fonts.css");
 @import url("../general.css");
+
+@import url("../langs/zh-cn/lang.css");
+
 @import url("../layout.css");
 @import url("../typography.css");
 @import url("../button.css");
@@ -11,7 +14,4 @@
 @import url("../pagination.css");
 @import url("../image.css");
 @import url("../badge.css");
-
-@import url("../langs/zh-cn/lang.css");
-
 @import url("../helper.css");

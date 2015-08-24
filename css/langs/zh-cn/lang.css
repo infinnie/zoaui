@@ -5,14 +5,18 @@ body:lang(zh-cn), input:lang(zh-cn), button:lang(zh-cn), select:lang(zh-cn), tex
     font-family: "_Segoe","Segoe UI",Seravek,"Avenir next","_MSYH",Arial,sans-serif;
 }
 
-body:lang(zh), body:lang(zh-cn), [lang=zh], [lang=zh-cn] {
-    line-height: 1.75;
-}
-
 pre:lang(zh), pre:lang(zh-cn), code:lang(zh), code:lang(zh-cn) {
     font-family: Consolas,"Source Code Pro",Menlo,"Droid Sans Mono","Courier New",monospace;
 }
 
-pre:lang(zh), pre:lang(zh-cn) {
-    line-height: 1.5;
+.zo--cjk {
+    line-height: 1.75;
+}
+
+.zo-h1--cjk {
+    line-height: 1.28;
+}
+
+.zo-h2--cjk {
+    line-height: 1.44;
 }
