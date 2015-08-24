@@ -6,7 +6,7 @@ body:lang(zh-cn), input:lang(zh-cn), button:lang(zh-cn), select:lang(zh-cn), tex
 }
 
 pre:lang(zh), pre:lang(zh-cn), code:lang(zh), code:lang(zh-cn) {
-    font-family: Consolas,"Source Code Pro",Menlo,"Droid Sans Mono","Courier New",monospace;
+    font-family: Consolas,Menlo,"Droid Sans Mono","Source Code Pro","DejaVu Sans Mono","Courier New","_MSYH",monospace;
 }
 
 .zo--cjk {

@@ -58,7 +58,7 @@ table {
 }
 
 pre, code {
-    font-family: Consolas,"Source Code Pro",Menlo,"Droid Sans Mono","Courier New",monospace;
+    font-family: Consolas,Menlo,"Droid Sans Mono","Source Code Pro","DejaVu Sans Mono","Courier New",monospace;
     line-height: 1.5;
     -webkit-font-feature-settings: normal;
     font-feature-settings: normal;
