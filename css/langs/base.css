@@ -1,11 +1,19 @@
-﻿.zo--cjk {
+﻿.zolang--reset {
+    font-family: "_Segoe","Segoe UI",Seravek,"Avenir next",Arial,sans-serif;
+}
+
+.zolang-pre--reset, .zolang-code--reset {
+    font-family: Consolas,Menlo,"Droid Sans Mono","Source Code Pro","DejaVu Sans Mono","Courier New",monospace;
+}
+
+.zolang--layoutCJK {
     line-height: 1.8;
 }
 
-.zo-h1--cjk {
+.zolang-h1--layoutCJK {
     line-height: 1.28;
 }
 
-.zo-h2--cjk {
+.zolang-h2--layoutCJK {
     line-height: 1.44;
 }
