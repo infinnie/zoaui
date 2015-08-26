@@ -1,6 +1,8 @@
 # zoaui
 ZoaUI, another UI library
 
+Meteor package: <a href="https://atmospherejs.com/zoa/ui">zoa:ui</a> by <a href="https://github.com/laosb">laosb</a>.
+
 ##New in v0.1.7
 * Added badge support in headings.
 * Added multilingual typography support.
