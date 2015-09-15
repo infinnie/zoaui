@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "ASP.NET",
+  "private": true,
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-concat": "*",
+    "amdefine": "*",
+    "gulp-import-css": "*",
+    "gulp-minify-css": "*"
+  }
+}
