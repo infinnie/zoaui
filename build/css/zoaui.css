@@ -74,7 +74,7 @@ input,
 button,
 select,
 textarea {
-  font: 100%/1.5 "_Segoe","Segoe UI",Seravek,"Avenir next",Arial,sans-serif;
+  font: 100%/1.5 "_Segoe","Segoe UI",Seravek,"Myriad Set Pro",-apple-system,BlinkMacSystemFont,"Avenir next","Open Sans",Arial,sans-serif;
   color: #333;
   -webkit-font-feature-settings: "dlig" 1,"kern" 1,"tnum" 1;
   font-feature-settings: "dlig" 1,"kern" 1,"tnum" 1;
@@ -133,7 +133,7 @@ table {
 
 pre,
 code {
-  font-family: Consolas,Menlo,"Droid Sans Mono","Source Code Pro","DejaVu Sans Mono","Courier New",monospace;
+  font-family: Consolas,Menlo,"Droid Sans Mono","Source Code Pro","DejaVu Sans Mono","Fira Mono","Courier New",monospace;
   line-height: 1.5;
   -webkit-font-feature-settings: normal;
   font-feature-settings: normal;
@@ -1796,6 +1796,65 @@ p {
 .zo-badge--info {
   color: #fff;
   background: #6ad;
+}
+
+.zo-hasOffCanvas {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  transition: .3s;
+  min-height: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+}
+
+.zo-offCanvasCover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0);
+  visibility: hidden;
+  transition: .3s;
+  z-index: 2;
+}
+
+.zo-offCanvas {
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  background: #f3f3f3;
+  width: 18em;
+  transition: .3s;
+  z-index: 0;
+  visibility: hidden;
+}
+
+.zo-offCanvas--current {
+  visibility: visible;
+}
+
+.zo-offCanvas--above {
+  z-index: 3;
+}
+
+.zo-offCanvas--left {
+  left: 0;
+}
+
+.zojs--offCanvasLeft {
+  overflow-x: hidden;
+}
+
+.zojs--offCanvasLeft .zo-hasOffCanvas,
+.zojs--offCanvasLeft .zo-offCanvasCover {
+  -webkit-transform: translate3d(18em,0,0);
+}
+
+.zojs--offCanvasLeft .zo-offCanvasCover {
+  visibility: visible;
 }
 
 .zolang--reset {

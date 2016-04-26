@@ -37,4 +37,4 @@
             $(this).find(".zo-dlg").css("top", $(window).scrollTop());
         });
     });
-})(jQuery);
+})(window.jQuery);
