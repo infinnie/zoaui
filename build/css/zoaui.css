@@ -1802,7 +1802,7 @@ p {
   position: absolute;
   width: 100%;
   z-index: 1;
-  transition: .3s;
+  transition: .25s;
   min-height: 100%;
   background: #fff;
   top: 0;
@@ -1817,7 +1817,7 @@ p {
   height: 100%;
   background: rgba(0,0,0,0);
   visibility: hidden;
-  transition: .3s;
+  transition: .25s;
   z-index: 2;
 }
 
@@ -1827,34 +1827,32 @@ p {
   min-height: 100%;
   background: #f3f3f3;
   width: 18em;
-  transition: .3s;
+  transition: .25s;
+  transition: .25s, z-index 0s;
   z-index: 0;
   visibility: hidden;
-}
-
-.zo-offCanvas--current {
-  visibility: visible;
-}
-
-.zo-offCanvas--above {
-  z-index: 3;
 }
 
 .zo-offCanvas--left {
   left: 0;
 }
 
-.zojs--offCanvasLeft {
-  overflow-x: hidden;
-}
-
 .zojs--offCanvasLeft .zo-hasOffCanvas,
 .zojs--offCanvasLeft .zo-offCanvasCover {
   -webkit-transform: translate3d(18em,0,0);
+  transform: translate3d(18em,0,0);
 }
 
 .zojs--offCanvasLeft .zo-offCanvasCover {
   visibility: visible;
+}
+
+.zojs-offCanvas--current {
+  visibility: visible;
+}
+
+.zojs-offCanvas--above {
+  z-index: 3;
 }
 
 .zolang--reset {

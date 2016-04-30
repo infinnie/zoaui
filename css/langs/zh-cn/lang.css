@@ -4,5 +4,5 @@ body:lang(zh-cn), input:lang(zh-cn), button:lang(zh-cn), select:lang(zh-cn), tex
 }
 
 .zolang-pre--zh,.zolang-code--zh {
-    font-family: Consolas,Menlo,"Droid Sans Mono","Source Code Pro","DejaVu Sans Mono","Courier New","_MSYH",monospace;
+    font-family: Consolas,Menlo,"Droid Sans Mono","Source Code Pro","DejaVu Sans Mono","Courier New","_MSYH","Source Han Sans CN",monospace;
 }
