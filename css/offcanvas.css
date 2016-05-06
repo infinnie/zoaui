@@ -1,8 +1,13 @@
-﻿.zo-hasOffCanvas {
+﻿.zo-offCanvasContainer {
+    overflow-x: hidden;
+    background: #f3f3f3;
+}
+
+.zo-hasOffCanvas {
     position: absolute;
     width: 100%;
     z-index: 1;
-    transition: .25s;
+    transition: .25s cubic-bezier(.6,1.5,.9,1);
     min-height: 100%;
     background: #fff;
     top: 0;
@@ -26,30 +31,61 @@
     top: 0;
     min-height: 100%;
     background: #f3f3f3;
-    width: 18em;
+    width: 80%;
     transition: .25s;
     transition: .25s, z-index 0s;
     z-index: 0;
     visibility: hidden;
 }
 
+.zo-offCanvas--dark {
+    color: #fff;
+    background: #333;
+}
+
 .zo-offCanvas--left {
     left: 0;
 }
 
+.zo-offCanvas--right {
+    right: 0;
+}
+
+.zojs-offCanvasContainer--dark {
+    background: #333;
+}
+
 .zojs--offCanvasLeft .zo-hasOffCanvas, .zojs--offCanvasLeft .zo-offCanvasCover {
-    -webkit-transform: translate3d(18em,0,0);
-    transform: translate3d(18em,0,0);
+    -webkit-transform: translate3d(80%,0,0);
+    transform: translate3d(80%,0,0);
 }
 
-.zojs--offCanvasLeft .zo-offCanvasCover {
-    visibility: visible;
+.zojs--offCanvasRight .zo-hasOffCanvas, .zojs--offCanvasRight .zo-offCanvasCover {
+    -webkit-transform: translate3d(-80%,0,0);
+    transform: translate3d(-80%,0,0);
 }
 
+.zojs--offCanvasLeft .zo-offCanvasCover, .zojs--offCanvasRight .zo-offCanvasCover,
 .zojs-offCanvas--current {
     visibility: visible;
 }
 
 .zojs-offCanvas--above {
     z-index: 3;
+}
+
+@media screen and (min-width:30em) {
+    .zo-offCanvas {
+        width: 18em;
+    }
+
+    .zojs--offCanvasLeft .zo-hasOffCanvas, .zojs--offCanvasLeft .zo-offCanvasCover {
+        -webkit-transform: translate3d(18em,0,0);
+        transform: translate3d(18em,0,0);
+    }
+
+    .zojs--offCanvasRight .zo-hasOffCanvas, .zojs--offCanvasRight .zo-offCanvasCover {
+        -webkit-transform: translate3d(-18em,0,0);
+        transform: translate3d(-18em,0,0);
+    }
 }

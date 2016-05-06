@@ -18,7 +18,7 @@ var gulp = require('gulp'),
 
 gulp.task('js', function () {
     // place code for your default task here
-    return gulp.src(["js/nav.js", "js/toggle.js"])
+    return gulp.src(["js/nav.js", "js/toggle.js", "js/offcanvas.js"])
         .pipe(concat("zoaui.js"))
         .pipe(gulp.dest(jsDest))
         .pipe(uglify())
