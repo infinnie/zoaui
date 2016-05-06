@@ -1,5 +1,6 @@
 ﻿/// <reference path="jquery/jquery-1.10.2.min.js"/>
 (function ($) {
+    "use strict";
     $(function () {
         $(document).on("click", "[data-zo-toggle]", function () {
             var el = $($(this).attr("data-zo-toggle"));
@@ -9,12 +10,10 @@
                 el.addClass("zojs--on").trigger("open.zo");
             }
             return false;
-        });
-        $(document).on("click", "[data-zo-open]", function () {
+        }).on("click", "[data-zo-open]", function () {
             $($(this).attr("data-zo-open")).addClass("zojs--on").trigger("open.zo");
             return false;
-        });
-        $(document).on("click", "[data-zo-close]", function () {
+        }).on("click", "[data-zo-close]", function () {
             $($(this).attr("data-zo-close")).removeClass("zojs--on").trigger("close.zo");
             return false;
         });
