@@ -19,7 +19,7 @@
         });
         $(window).on("keyup", function (e) {
             if (e.keyCode === 27) {
-                $(".zojs--on").removeClass("zojs--on");
+                $(".zojs--on").removeClass("zojs--on").trigger("close.zo");
             }
         });
         $(document).on("open.zo", ".zo-dlgContainer", function () {

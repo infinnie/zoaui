@@ -1,6 +1,5 @@
 ﻿.zo-offCanvasContainer {
     overflow-x: hidden;
-    background: #f3f3f3;
 }
 
 .zo-hasOffCanvas {
@@ -55,6 +54,10 @@
     background: #333;
 }
 
+.zojs-offCanvasContainer--light {
+    background: #f3f3f3;
+}
+
 .zojs--offCanvasLeft .zo-hasOffCanvas, .zojs--offCanvasLeft .zo-offCanvasCover {
     -webkit-transform: translate3d(80%,0,0);
     transform: translate3d(80%,0,0);
@@ -66,7 +69,7 @@
 }
 
 .zojs--offCanvasLeft .zo-offCanvasCover, .zojs--offCanvasRight .zo-offCanvasCover,
-.zojs-offCanvas--current {
+.zo-offCanvas.zojs--on {
     visibility: visible;
 }
 
