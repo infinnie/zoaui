@@ -14,7 +14,9 @@
             $($(this).attr("data-zo-open")).addClass("zojs--on").trigger("open.zo");
             return false;
         }).on("click", "[data-zo-close]", function () {
-            $($(this).attr("data-zo-close")).removeClass("zojs--on").trigger("close.zo");
+            $($(this).attr("data-zo-close")).filter(function () {
+                return $(this).hasClass("zojs--on");
+            }).removeClass("zojs--on").trigger("close.zo");
             return false;
         });
         $(window).on("keyup", function (e) {

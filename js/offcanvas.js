@@ -20,9 +20,11 @@
             }, 250);
         }).on("close.zo", "[data-zo-offcanvas-pos]", function () {
             var target = $(this), pos = target.attr("data-zo-offcanvas-pos"), theme = target.attr("data-zo-offcanvas-theme") || "light";
-            body.removeClass(posClasses[pos]).removeClass(themeClasses[theme]);
+            body.removeClass(posClasses[pos]);
             target.removeClass("zojs-offCanvas--current zojs-offCanvas--above");
-
+            setTimeout(function () {
+                body.removeClass(themeClasses[theme]);
+            }, 250);
         });
     });
 })(window.jQuery);

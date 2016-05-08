@@ -1,9 +1,14 @@
 ﻿.zo-offCanvasContainer {
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .zo-hasOffCanvas {
-    position: absolute;
+    position: relative;
     width: 100%;
     z-index: 1;
     transition: .25s cubic-bezier(.6,1.5,.9,1);

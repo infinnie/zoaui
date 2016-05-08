@@ -25,7 +25,9 @@
             $($(this).attr("data-zo-open")).addClass("zojs--on").trigger("open.zo");
             return false;
         }).on("click", "[data-zo-close]", function () {
-            $($(this).attr("data-zo-close")).removeClass("zojs--on").trigger("close.zo");
+            $($(this).attr("data-zo-close")).filter(function () {
+                return $(this).hasClass("zojs--on");
+            }).removeClass("zojs--on").trigger("close.zo");
             return false;
         });
         $(window).on("keyup", function (e) {
@@ -60,9 +62,11 @@
             }, 250);
         }).on("close.zo", "[data-zo-offcanvas-pos]", function () {
             var target = $(this), pos = target.attr("data-zo-offcanvas-pos"), theme = target.attr("data-zo-offcanvas-theme") || "light";
-            body.removeClass(posClasses[pos]).removeClass(themeClasses[theme]);
+            body.removeClass(posClasses[pos]);
             target.removeClass("zojs-offCanvas--current zojs-offCanvas--above");
-
+            setTimeout(function () {
+                body.removeClass(themeClasses[theme]);
+            }, 250);
         });
     });
 })(window.jQuery);
