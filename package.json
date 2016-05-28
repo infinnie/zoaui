@@ -1,7 +1,6 @@
 {
-  "version": "1.0.0",
-  "name": "ASP.NET",
-  "private": true,
+  "version": "0.1.9",
+  "name": "zoaui",
   "devDependencies": {
     "gulp": "*",
     "gulp-rename": "*",
