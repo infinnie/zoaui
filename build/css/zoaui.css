@@ -202,8 +202,13 @@ p {
   width: 100%;
 }
 
-.zo-g__col--right {
+.zo-g__col--right,
+.zo--floatRight {
   float: right;
+}
+
+.zo--floatLeft {
+  float: left;
 }
 
 /*#region zo-g__col--xs*/
@@ -631,6 +636,18 @@ p {
   .zo--sHide {
     display: none;
   }
+
+  .zo--sFloatNone {
+    float: none;
+  }
+
+  .zo--sFloatLeft {
+    float: left;
+  }
+
+  .zo--sFloatRight {
+    float: right;
+  }
 }
 
 @media all and (min-width:48em) {
@@ -854,6 +871,18 @@ p {
   .zo--mHide {
     display: none;
   }
+
+  .zo--mFloatNone {
+    float: none;
+  }
+
+  .zo--mFloatLeft {
+    float: left;
+  }
+
+  .zo--mFloatRight {
+    float: right;
+  }
 }
 
 @media all and (min-width:60em) {
@@ -1076,6 +1105,18 @@ p {
 
   .zo--lHide {
     display: none;
+  }
+
+  .zo--lFloatNone {
+    float: none;
+  }
+
+  .zo--lFloatLeft {
+    float: left;
+  }
+
+  .zo--lFloatRight {
+    float: right;
   }
 }
 
@@ -1415,10 +1456,6 @@ p {
   visibility: hidden;
 }
 
-.zo-nav:after {
-  clear: both;
-}
-
 .zo-nav__item {
   margin: 0;
 }
@@ -1426,6 +1463,30 @@ p {
 .zo-nav__link {
   display: block;
   padding: 1em;
+  color: #333;
+}
+
+.zo-nav--horizontal:after {
+  clear: both;
+}
+
+.zo-nav--lined {
+  border-bottom: 1px solid #eee;
+}
+
+.zo-nav__link--activeLined {
+  margin-bottom: -1px;
+}
+
+.zo-nav__link--activeLined:hover,
+.zo-nav__link--activeLined:active,
+.zo-nav__link--activeLined:focus,
+.zo-nav__link--activeLined.zo--active {
+  color: #26a;
+}
+
+.zo-nav__link--activeLined.zo--active {
+  box-shadow: inset 0 -2px #59d;
 }
 
 .zo-navbar {
